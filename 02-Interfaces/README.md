@@ -1,6 +1,6 @@
-# Abstract Classes and Interfaces Challlenge:
+# Abstract Classes and Interfaces Challenge:
 
-Decisions are hard especially when you are hungry. This is a simple console application that takes your order. It starts by asking if you would like lunch or dinner and continues on until all selections have been made and then outputs your choices.
+Decisions are hard especially when you are hungry. This is a simple console application that takes your lunch or dinner order. It starts by asking which you would like and continues on until all selections have been made and then outputs your choices.
 
 ## What you are supposed to do:
 
