@@ -12,14 +12,15 @@ namespace InterfacesAndAbstractClasses
             if (meal == "lunch")
             {
                 var order = new LunchDeal();
-                var mealOrder = order.GetOrder();
+                var mealOrder = order.GetOrder("Sandwich", "Burrito");
                 order.PrintOrder(mealOrder);
             }
 
             if (meal == "dinner")
             {
+
                 var order = new DinnerDeal();
-                var mealOrder = order.GetOrder();
+                var mealOrder = order.GetOrder("Steak", "Chicken");
                 order.PrintOrder(mealOrder);
             }
 

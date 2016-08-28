@@ -1,3 +1,10 @@
 02-Interfaces/InterfacesAndAbstractClasses/bin/Debug/InheritanceInterfacesAndDelegates.vshost.exe
 *.cache
 *.txt
+02-Interfaces/InterfacesAndAbstractClasses/bin/Debug/InheritanceInterfacesAndDelegates.exe
+*.pdb
+02-Interfaces/InterfacesAndAbstractClasses/obj/Debug/InheritanceInterfacesAndDelegates.exe
+*.txt
+02-Interfaces/InterfacesAndAbstractClasses/obj/Debug/InterfacesAndAbstractClasses.csprojResolveAssemblyReference.cache
+02-Interfaces/InterfacesAndAbstractClasses/obj/Debug/InheritanceInterfacesAndDelegates.exe
+*.txt
