@@ -1,28 +1,24 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace AdapterPattern
 {
+    //Get meal via int
     public class MealServiceTwo
     {
         public string GetMeal()
         {
-            Console.Write("What meal would you like? Please enter the correct number (Breakfast = 1, Lunch = 1, or Dinner = 4):\n");
-            var meal = Convert.ToInt32(Console.ReadLine());
-            if (meal != null)
-            {
-                switch ((MealEnum)meal)
+            Console.Write("What meal would you like? Please enter the correct number \n(Breakfast = 1, Lunch = 2, or Dinner = 3):\n");
+            
+            //gets numeric value and converts it to enum
+            var meal = (MealEnum)Convert.ToInt32(Console.ReadLine());
+
+                switch (meal)
                 {
-                    case meal.Breakfast:
-                    case meal.Lunch:
-                    case meal.Dinner:
+                    case MealEnum.Breakfast:
+                    case MealEnum.Lunch:
+                    case MealEnum.Dinner:
                         return meal.ToString();
                 }
-
-            }
 
             Console.Write("That's not a meal. Try again...\n\n");
             return GetMeal();
