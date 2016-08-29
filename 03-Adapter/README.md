@@ -1,6 +1,6 @@
 # Adapter Pattern Challenge:
 
-This application asks what meal you would like to eat (breakfast, lunch or dinner). It then takes a in an int and returns the cooresponding enumeration value. This is great except their is another application implementing the ITarget inteface that expects the same information only as a string. 
+This application asks what meal you would like to eat (breakfast, lunch or dinner). It then takes accepts a number from the console and returns the cooresponding enumeration value. This is great, except there is another application implementing your ITarget interface that expects the same information only with a string return value. 
 
 ## What you are supposed to do:
 
