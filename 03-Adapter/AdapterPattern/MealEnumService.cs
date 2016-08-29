@@ -3,9 +3,12 @@
 namespace AdapterPattern
 {
     //Get meal via int
-    public class MealServiceTwo
+    public class MealEnumService
     {
-        public string GetMeal()
+        /// <summary>
+        /// The 'Adaptee' class
+        /// </summary>
+        public MealEnum GetMealEnum()
         {
             Console.Write("What meal would you like? Please enter the correct number \n(Breakfast = 1, Lunch = 2, or Dinner = 3):\n");
             
@@ -17,11 +20,11 @@ namespace AdapterPattern
                     case MealEnum.Breakfast:
                     case MealEnum.Lunch:
                     case MealEnum.Dinner:
-                        return meal.ToString();
+                        return meal;
                 }
 
             Console.Write("That's not a meal. Try again...\n\n");
-            return GetMeal();
+            return GetMealEnum();
         }
 
     }

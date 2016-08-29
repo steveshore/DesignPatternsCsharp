@@ -43,9 +43,9 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ITarget.cs" />
     <Compile Include="MealEnum.cs" />
-    <Compile Include="MealServiceOne.cs" />
-    <Compile Include="MealServiceTwo.cs" />
+    <Compile Include="MealEnumService.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
