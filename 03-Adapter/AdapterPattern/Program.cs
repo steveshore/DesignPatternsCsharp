@@ -32,7 +32,7 @@ namespace AdapterPattern
                     return serviceType.ToLower();
                 }
             }
-            Console.Write("Type better. Enter string or int:");
+            Console.Write("\nType better. Enter string or int...\n\n");
             return ChooseServiceType();
         }
     }
