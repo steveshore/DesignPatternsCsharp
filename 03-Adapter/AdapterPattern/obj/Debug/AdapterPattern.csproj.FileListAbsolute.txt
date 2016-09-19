@@ -4,3 +4,9 @@ C:\GitHub2\DesignPatternsCsharp\03-Adapter\AdapterPattern\bin\Debug\AdapterPatte
 C:\GitHub2\DesignPatternsCsharp\03-Adapter\AdapterPattern\bin\Debug\AdapterPattern.pdb
 C:\GitHub2\DesignPatternsCsharp\03-Adapter\AdapterPattern\obj\Debug\AdapterPattern.exe
 C:\GitHub2\DesignPatternsCsharp\03-Adapter\AdapterPattern\obj\Debug\AdapterPattern.pdb
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\bin\Debug\AdapterPattern.exe.config
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\obj\Debug\AdapterPattern.exe
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\bin\Debug\AdapterPattern.exe
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\bin\Debug\AdapterPattern.pdb
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\obj\Debug\AdapterPattern.csprojResolveAssemblyReference.cache
+C:\GitHubFork\DesignPatternsCsharp\03-Adapter\AdapterPattern\obj\Debug\AdapterPattern.pdb

@@ -44,6 +44,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ITarget.cs" />
+    <Compile Include="MealAdapter.cs" />
     <Compile Include="MealEnum.cs" />
     <Compile Include="MealEnumService.cs" />
     <Compile Include="Program.cs" />
